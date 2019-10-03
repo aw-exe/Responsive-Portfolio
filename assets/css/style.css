@@ -1,6 +1,6 @@
 * {
-    box-sizing:border-box;
-    text-align:center;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .nav-container {
@@ -23,11 +23,11 @@
     position: absolute;
     top: 75%;
     left: 0;
-    right: 0;    
-    bottom: 10%;    
+    right: 0;
+    bottom: 10%;
     text-align: center;
     background-color: rgb(151, 204, 97);
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     color: #fff;
     width: 100%;
 }
@@ -35,7 +35,7 @@
 .form-control {
     width: 600px;
     background: transparent;
-    border-bottom: 1px solid  rgb(68, 67, 67);
+    border-bottom: 1px solid rgb(68, 67, 67);
     color: #000;
     font-size: 18px;
     margin-bottom: 10px;
@@ -59,7 +59,7 @@ form .submit {
 body {
     font-size: 20px;
     line-height: 30px;
-    color: #000; 
+    color: #000;
 }
 
 header {
@@ -91,7 +91,7 @@ form {
 }
 
 input {
-    height: 45px;  
+    height: 45px;
 }
 
 footer {
@@ -104,3 +104,18 @@ footer {
     color: #fff;
     background-color: #333;
 }
+
+@media screen (max-width: 980px) {
+    body {
+        background-color: grey;
+    }
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: tan;
+    }
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: darkgrey;
+    }
