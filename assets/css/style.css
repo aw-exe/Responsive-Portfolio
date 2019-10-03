@@ -105,17 +105,17 @@ footer {
     background-color: #333;
 }
 
-@media screen (max-width: 980px) {
+@media only screen and (max-width: 980px) {
     body {
         background-color: grey;
     }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
         background-color: tan;
     }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     body {
         background-color: darkgrey;
     }
