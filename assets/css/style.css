@@ -32,6 +32,11 @@
     width: 100%;
 }
 
+
+#contact-form {
+    margin-left: 350px;
+}
+
 .form-control {
     width: 600px;
     background: transparent;
@@ -56,15 +61,14 @@ form .submit {
     margin-right: 3%;
 }
 
+h1 {
+    text-align: center;
+}
+
 body {
     font-size: 20px;
     line-height: 30px;
     color: #000;
-}
-
-h3 {
-    text-align: left;
-    Color: rgb(151, 204, 97);
 }
 
 p {
