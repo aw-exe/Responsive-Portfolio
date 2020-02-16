@@ -62,19 +62,6 @@ body {
     color: #000;
 }
 
-header {
-    padding: 1%;
-    width: 25%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #fff;
-    background-color: rgb(151, 204, 97);
-}
-
-nav {
-    position: fixed;
-    margin: 45px;
-}
-
 h3 {
     text-align: left;
     Color: rgb(151, 204, 97);
@@ -106,16 +93,16 @@ footer {
 }
 
 @media only screen and (max-width: 980px) {
-    body {
-        background-color: grey;
+    element {
+        ;
     }
 
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: tan;
+    element {
+        ;
     }
 
 @media only screen and (max-width: 640px) {
     body {
-        background-color: darkgrey;
+        margin-left: 5%;
     }
